@@ -17,174 +17,265 @@
 
 ```
 <nav class="navbar">
-    <div class="logo">AB.</div>
+
+    <a href="#" class="logo">AB.</a>
 
     <div class="nav-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
         <a href="#contact">Contact</a>
     </div>
+
 </nav>
 
 
 <main>
 
+    <!-- HERO -->
+
     <section class="hero">
 
-        <p class="terminal-line">
-            <span>$</span> whoami
-        </p>
+        <div class="hero-content">
 
-        <h1>
-            Anshika Bindlish
-        </h1>
+            <p class="eyebrow">
+                COMPUTER SCIENCE @ UNIVERSITY OF WATERLOO
+            </p>
 
-        <h2>
-            Computer Science @ Waterloo
-        </h2>
+            <h1>
+                Hi, I'm <span>Anshika.</span>
+            </h1>
 
-        <p class="hero-description">
-            I build software, explore cybersecurity, and learn by turning
-            ideas into working projects.
-        </p>
+            <p class="hero-description">
+                I build software, explore cybersecurity, and learn by
+                turning ideas into working projects.
+            </p>
 
-        <div class="hero-buttons">
+            <div class="hero-buttons">
 
-        <a href="#projects" class="button primary">
-            View Projects
-        </a>
+                <a href="#projects" class="button primary">
+                    View my work
+                </a>
 
-        </div>
+                <a href="#contact" class="button secondary">
+                    Get in touch
+                </a>
 
-        <div class="profile-links">
+            </div>
 
-        <a href="https://github.com/anshikabindlish"
-        target="_blank">
-            GitHub ↗
-        </a>
+            <div class="profile-links">
 
-        <a href="https://www.linkedin.com/in/anshika-bindlish-a72360248/"
-        target="_blank">
-            LinkedIn ↗
-        </a>
+                <a href="https://github.com/anshikabindlish"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub ↗
+                </a>
 
-        <a href="https://devpost.com/anshikabindlish"
-        target="_blank">
-            Devpost ↗
-        </a>
+                <a href="https://www.linkedin.com/in/anshika-bindlish-a72360248/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn ↗
+                </a>
+
+                <a href="https://devpost.com/anshikabindlish"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Devpost ↗
+                </a>
+
+            </div>
 
         </div>
 
     </section>
 
+
+    <!-- ABOUT -->
 
     <section id="about" class="section">
 
-        <p class="section-label">$ about</p>
+        <div class="section-heading">
 
-        <h2>Building things to understand how they work.</h2>
+            <p class="eyebrow">ABOUT ME</p>
 
-        <p>
-            I'm a Computer Science student at the University of Waterloo
-            interested in software development, cybersecurity, and
-            problem solving.
-        </p>
+            <h2>A little about me.</h2>
 
-        <p>
-            Most of what I learn comes from building projects, experimenting
-            with new technologies, and figuring out why things break.
-        </p>
+        </div>
+
+        <div class="about-content">
+
+            <p>
+                I'm a Computer Science student at the University of
+                Waterloo interested in software development, cybersecurity,
+                and problem solving.
+            </p>
+
+            <p>
+                I enjoy learning by building things — from Java applications
+                to web projects and security-focused tools. I'm always
+                looking for opportunities to learn something new and turn
+                that knowledge into something useful.
+            </p>
+
+        </div>
 
     </section>
 
 
-    <section id="projects" class="section">
+    <!-- PROJECTS -->
 
-        <p class="section-label">$ ls projects</p>
+    <section id="projects" class="section projects-section">
 
-        <h2>Featured Projects</h2>
+        <div class="section-heading">
+
+            <p class="eyebrow">SELECTED WORK</p>
+
+            <h2>Projects I've built.</h2>
+
+        </div>
+
 
         <div class="projects-grid">
 
+            <!-- AEGORA -->
+
             <article class="project-card featured">
 
-                <div class="project-number">01</div>
+                <div class="project-image aegora-image">
 
-                <h3>Aegora</h3>
+                    <div class="image-label">
+                        AEGORA
+                    </div>
 
-                <p class="project-type">
-                    Website Security Scanner
-                </p>
+                    <div class="scan-preview">
 
-                <p>
-                    A security-focused website scanner that analyzes DNS,
-                    HTTPS, TLS certificates, security headers, and generates
-                    severity-based findings and an overall security score.
-                </p>
+                        <div class="preview-top">
+                            <span>Security Scan</span>
+                            <span class="status">COMPLETE</span>
+                        </div>
 
-                <div class="tags">
-                    <span>Node.js</span>
-                    <span>Express</span>
-                    <span>JavaScript</span>
-                    <span>Security</span>
+                        <div class="score">
+                            70
+                            <span>/ 100</span>
+                        </div>
+
+                        <div class="preview-items">
+                            <span>✓ HTTPS</span>
+                            <span>✓ TLS 1.3</span>
+                            <span>! HSTS</span>
+                            <span>! CSP</span>
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <a href="https://github.com/anshikabindlish/Aegora"
-                   target="_blank"
-                   class="project-link">
-                    View on GitHub →
-                </a>
+
+                <div class="project-content">
+
+                    <p class="project-label">
+                        FEATURED PROJECT
+                    </p>
+
+                    <h3>Aegora</h3>
+
+                    <p class="project-type">
+                        Website Security Scanner
+                    </p>
+
+                    <p class="project-description">
+                        A security-focused web application that analyzes
+                        domains for DNS information, HTTPS configuration,
+                        TLS certificates, security headers, and potential
+                        security issues.
+                    </p>
+
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>JavaScript</span>
+                        <span>DNS</span>
+                        <span>TLS</span>
+                    </div>
+
+                    <a href="https://github.com/anshikabindlish/Aegora"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        View project →
+                    </a>
+
+                </div>
 
             </article>
 
 
+            <!-- PASSWORD SECURITY ANALYZER -->
+
             <article class="project-card">
 
-                <div class="project-number">02</div>
-
-                <h3>Password Security Analyzer</h3>
-
-                <p>
-                    A Java-based project that evaluates password security
-                    and identifies potential weaknesses.
-                </p>
-
-                <div class="tags">
-                    <span>Java</span>
-                    <span>Cybersecurity</span>
+                <div class="project-placeholder">
+                    <span>01</span>
                 </div>
 
-                <a href="https://github.com/anshikabindlish/password-security-analyzer"
-                   target="_blank"
-                   class="project-link">
-                    View Project →
-                </a>
+                <div class="project-content">
+
+                    <h3>Password Security Analyzer</h3>
+
+                    <p class="project-description">
+                        A Java application designed to evaluate password
+                        strength and identify common weaknesses.
+                    </p>
+
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Cybersecurity</span>
+                    </div>
+
+                    <a href="https://github.com/anshikabindlish/password-security-analyzer"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        View project →
+                    </a>
+
+                </div>
 
             </article>
 
 
+            <!-- QUIZ APP -->
+
             <article class="project-card">
 
-                <div class="project-number">03</div>
-
-                <h3>Java Quiz App</h3>
-
-                <p>
-                    A Java quiz application built to practice object-oriented
-                    programming, user input, and program structure.
-                </p>
-
-                <div class="tags">
-                    <span>Java</span>
-                    <span>OOP</span>
+                <div class="project-placeholder">
+                    <span>02</span>
                 </div>
 
-                <a href="https://github.com/anshikabindlish/Quiz-App"
-                   target="_blank"
-                   class="project-link">
-                    View Project →
-                </a>
+                <div class="project-content">
+
+                    <h3>Java Quiz App</h3>
+
+                    <p class="project-description">
+                        A Java quiz application built to practice
+                        object-oriented programming, user input, and
+                        application structure.
+                    </p>
+
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>OOP</span>
+                    </div>
+
+                    <a href="https://github.com/anshikabindlish/Quiz-App"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        View project →
+                    </a>
+
+                </div>
 
             </article>
 
@@ -193,11 +284,17 @@
     </section>
 
 
+    <!-- SKILLS -->
+
     <section id="skills" class="section">
 
-        <p class="section-label">$ skills</p>
+        <div class="section-heading">
 
-        <h2>Technologies I'm working with</h2>
+            <p class="eyebrow">TECHNOLOGIES</p>
+
+            <h2>What I work with.</h2>
+
+        </div>
 
         <div class="skills-list">
 
@@ -216,79 +313,122 @@
     </section>
 
 
+    <!-- ACHIEVEMENTS -->
+
     <section id="achievements" class="section">
 
-```
-    <p class="section-label">$ achievements</p>
+        <div class="section-heading">
 
-    <h2>Things I've accomplished</h2>
+            <p class="eyebrow">ACHIEVEMENTS</p>
 
-    <div class="achievements-grid">
+            <h2>Beyond the code.</h2>
 
-        <div class="achievement-card">
-            <span class="achievement-icon">01</span>
-            <div>
-                <h3>CSMC Gold Medal</h3>
-                <p>
-                    Gold medal recipient in the Canadian Secondary Mathematics Contest.
-                </p>
-            </div>
         </div>
 
-        <div class="achievement-card">
-            <span class="achievement-icon">02</span>
-            <div>
-                <h3>Regional Badminton Gold</h3>
-                <p>
-                    Varsity badminton regional gold medalist.
-                </p>
+
+        <div class="achievements-grid">
+
+            <div class="achievement-card">
+
+                <span class="achievement-number">01</span>
+
+                <div>
+                    <h3>CSMC Gold Medal</h3>
+
+                    <p>
+                        Gold medal recipient in the Canadian Secondary
+                        Mathematics Contest.
+                    </p>
+                </div>
+
             </div>
+
+
+            <div class="achievement-card">
+
+                <span class="achievement-number">02</span>
+
+                <div>
+                    <h3>Regional Badminton Gold</h3>
+
+                    <p>
+                        Varsity badminton regional gold medalist.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card">
+
+                <span class="achievement-number">03</span>
+
+                <div>
+                    <h3>Academic Scholar</h3>
+
+                    <p>
+                        Academic scholar award recipient for five
+                        consecutive years.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card">
+
+                <span class="achievement-number">04</span>
+
+                <div>
+                    <h3>Leadership & Volunteering</h3>
+
+                    <p>
+                        Led a team of 25–30 members through Art Council
+                        initiatives and volunteered with museum programs.
+                    </p>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="achievement-card">
-            <span class="achievement-icon">03</span>
-            <div>
-                <h3>Academic Scholar</h3>
-                <p>
-                    Received an academic scholar award for five consecutive years.
-                </p>
-            </div>
-        </div>
-
-        <div class="achievement-card">
-            <span class="achievement-icon">04</span>
-            <div>
-                <h3>Leadership & Volunteering</h3>
-                <p>
-                    Led a team of 25–30 members through Art Council initiatives
-                    and volunteered with Spadina Museum programs.
-                </p>
-            </div>
-        </div>
-
-    </div>
-```
-
-</section>
+    </section>
 
 
+    <!-- CONTACT -->
 
-    <section id="contact" class="section contact">
+    <section id="contact" class="section contact-section">
 
-        <p class="section-label">$ contact</p>
+        <p class="eyebrow">GET IN TOUCH</p>
 
-        <h2>Let's connect.</h2>
+        <h2>Let's build something.</h2>
 
         <p>
-            Interested in software development, cybersecurity,
-            hackathons, or building something interesting?
+            I'm always interested in connecting with other students,
+            developers, and people building interesting things.
         </p>
 
-        <a href="https://github.com/anshikabindlish"
-           target="_blank"
-           class="button primary">
-            GitHub ↗
-        </a>
+        <div class="contact-links">
+
+            <a href="https://github.com/anshikabindlish"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/anshika-bindlish-a72360248/"
+               target="_blank"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+            <a href="https://devpost.com/anshikabindlish"
+               target="_blank"
+               rel="noopener noreferrer">
+                Devpost
+            </a>
+
+        </div>
 
     </section>
 
@@ -296,8 +436,11 @@
 
 
 <footer>
+
     <p>© 2026 Anshika Bindlish</p>
+
 </footer>
+
 
 <script src="script.js"></script>
 ```
